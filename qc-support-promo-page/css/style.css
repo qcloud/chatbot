@@ -1,0 +1,331 @@
+::-moz-selection { /* Code for Firefox */
+    color: #fff;
+    background: #22a0c9;
+}
+
+::selection {
+    color: #fff;
+    background: #22a0c9;
+}
+.letf {
+	float:left;
+}
+.right {
+	float:right;
+}
+.clear {
+	clear:both;
+}
+img {
+	border:none;
+	max-width:100%; 
+}
+ul li,
+ol li {
+	list-style:none;
+	margin:0;
+}
+ul li a:hover {
+	text-decoration:none;
+}
+table {
+    width: 100%;
+}
+a {
+	text-decoration:none;
+}
+
+
+/*--------------------------main style------------------------------*/
+/*--------------------------Start Header------------------------------*/
+
+
+/* ------------------------header top-------------------------------- */
+.main-container {
+    overflow: hidden;
+    position: relative;
+}
+* {
+	margin:0;
+	padding:0;
+}
+.clearfix-div::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+.qc_support_container {
+	max-width: 1360px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.qc_tab_container {
+}
+
+/* Style the buttons inside the tab */
+.qc-column-4 {
+    width: 33.33333333%;
+	float:left;
+}
+.qc-column-4 {
+	position:relative;
+	padding-left:15px;
+	padding-right:15px;
+	box-sizing:border-box;
+}
+.qc-column-6 {
+    width: 50%;
+	float:left;
+}
+.qc-column-6 {
+	position:relative;
+	padding-left:15px;
+	padding-right:15px;
+	box-sizing:border-box;
+}
+
+.qc-column-12 {
+    width: 100%;
+	float:left;
+}
+.qc-column-12 {
+	position:relative;
+	padding-left:15px;
+	padding-right:15px;
+	box-sizing:border-box;
+}
+.plugin-title {
+	font-size: 28px;
+	line-height: 38px;
+	font-size: 28px;
+	line-height: 38px;
+}
+
+.support-btn-main h4 {
+	font-size: 18px;
+	line-height: 26px;
+	font-size: 18px;
+	line-height: 28px;
+}
+.support-block {
+	text-align: center;
+	min-height: 410px;
+}
+.support-block-img img {
+	width: 160px;
+}
+.support-block-info h4 a {
+	font-size: 22px;
+	text-decoration: none;
+	color: #333;
+	margin: 20px 0;
+	display: inline-block;
+}
+.support-block-info p {
+	font-size:16px;
+	line-height:26px;
+	color:#666;
+}
+.support-btn-main.clearfix-div {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 120px;
+}
+.support-btn a {
+	text-align: center;
+	text-decoration: none;
+	font-size: 22px;
+	background: #101010;
+	border: 1px solid #101010;
+	color: #fff;
+	padding: 15px 30px;
+	border-radius: 3px;
+	text-transform: uppercase;
+	display: inline-block;
+	width: 270px;
+}
+.support-btn .free-support {
+	background:#fff;
+	border:1px solid #101010;
+	color:#101010;
+}
+.support-btn {
+	display: inline-block;
+	padding: 0 15px;
+}
+.support-btn .free-support:hover {
+	background:#101010;
+	color:#fff;
+}
+
+.support-btn .premium-support:hover {
+    background: #fff !important;
+    border: 1px solid #101010 !important;
+    color: #101010;
+}
+
+.support-btn .premium-support:hover,
+.support-btn .free-support:hover,
+.support-btn .free-support,
+.support-btn .premium-support {
+	 -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+
+@media only screen and (max-width: 991px) {
+	.qc-column-4 {
+		width: 50%;
+	}
+	.premium-support {
+		margin-top: 30px;
+	}
+
+}
+
+
+@media only screen and (max-width: 767px){
+	.qc-column-4 {
+		width: 100%;
+	}
+	.qc-column-6 {
+		width: 100%;
+	}
+	.premium-support {
+		margin-top: 30px;
+	}
+
+}
+@media only screen and (max-width: 579px) {
+	.qc-column-4 {
+		width: 100%;
+	}
+	
+	.qc-column-6 {
+		width: 100%;
+	}
+	.premium-support {
+		margin-top: 30px;
+	}
+	.support-btn a {
+		font-size: 18px;
+		width: 220px;
+	}
+}
+
+/* ------------------------Products Columns-------------------------------- */
+.plugin-title-custom{
+    font-size: 20px;
+    line-height: normal;
+    font-weight: 400;
+    margin: 15px;
+}
+.qc_tabcontent{
+	overflow: hidden;
+}
+.qc-support-product-column{
+	width: 50%;
+	padding: 20px 0;
+}
+.qc-support-product-column:nth-of-type(2){ float: left; }
+.qc-support-product-column .plugin-title-section{
+	min-height: 70px;
+	padding-bottom: 25px;
+}
+.qc-support-product-column .plugin-title-section .qc-product-type{
+	font-size: 28px;
+	color: #ea493e;
+	font-weight: 700;
+	text-align: center;
+}
+.qc-support-product-column:last-of-type{ float: right; }
+.qc-support-product-column:last-of-type .qc-support-product-inn{
+	background: #f1f1f1 !important;
+}
+.qc-support-product-column .support-block-info p{
+	display: none;
+}
+.qc-support-product-column .qc-column-4{
+	width: 50%;
+	margin-bottom: 15px;
+}
+.qc-support-product-column .support-block{
+	min-height: 280px;
+}
+.qc-support-product-column .support-block-info h4{
+	margin: 0;
+	min-height: 90px;
+}
+.qc-support-product-column .support-block-info h4 a{
+	line-height: 25px;
+
+}
+.qc-support-product-inn{
+	overflow: hidden;
+    margin: 0 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 12px 0px #23282d;
+}
+.support-btn-main.clearfix-div{
+	margin-bottom: 60px;
+}
+.qc_support_container{
+	max-width: 1500px;
+}
+.support-block-img a{ display: block; }
+.support-block-img img {
+    max-width: 130px;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+}
+.support-block-info h4 {
+	font-size: 22px;
+	text-decoration: none;
+	color: #333;
+	margin: 20px 0;
+	display: inline-block;
+}
+@media only screen and (max-width: 1150px) {
+	.qc-support-product-column{
+		width: 100%;
+		margin-bottom: 40px;
+	}
+	.qc-support-product-column .qc-column-4{
+		width: 33.33%;
+		margin-bottom: 40px;
+	}
+
+}
+@media only screen and (max-width: 650px) {
+	.qc-support-product-column .qc-column-4{
+		width: 100%;
+		margin-bottom: 40px;
+	}
+	.support-block-img img {
+		max-width: 160px;
+	}
+}
+.support-btn .premium-support-free {
+    width: 342px;
+    background: #c50909;
+    border: 1px solid #940c0c;
+}
+.download-free{
+	margin-right: 10px !important;
+	margin-left: 10px !important;
+}
+.plugin-title-custom{
+	text-align: center;
+}
+
+.wp_addon_fullwidth{width:100% !important;max-width: 100% !important;}
+.wpbot-chatbot-pro-link{text-align:center}
+.wpbot-chatbot-pro-link img{width: 80px;}
+.wpbot-chatbot-pro-link a{font-size: 42px;}
+.wpbot-chatbot-pro-link a:focus{text-decoration:none;box-shadow:none;outline:none;}
+.wpbot-chatbot-pro-link a:hover{text-decoration:none}

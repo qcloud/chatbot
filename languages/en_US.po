@@ -1,0 +1,1248 @@
+# Copyright (C) 2018 QuantumCloud
+msgid ""
+msgstr ""
+"Project-Id-Version: wpWBot wpCommerce Chatbot Pro\n"
+"POT-Creation-Date: 2018-07-01 17:52+0600\n"
+"PO-Revision-Date: 2018-07-01 17:53+0600\n"
+"Last-Translator: \n"
+"Language-Team: QuantumCloud, Dhaka Bangladesh, http://www.quantumcloud.com\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__(; __(;_x(\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin_ui.php:1
+msgid "wpwBot Pro"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "The Professional Version"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "wpwBot is a project by Web Design Company QuantumCloud"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "GENERAL SETTINGS"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "ICONS & THEMES"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Support Builder"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Notification Builder"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "LANGUAGE CENTER"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "INTEGRATION"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Retargeting "
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Bot Activity Hour"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "MOBILE APP"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Custom CSS"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Emails Will be Sent to"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "wpwBot Products Search Options"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Standard Search"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Advanced Search"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Use wpcommerce standard products search criteria."
+msgstr ""
+
+#: admin_ui.php:1
+msgid "To Enable Title, Content, Excerpt,Categories,Tag and SKU Search"
+msgstr ""
+
+#: admin_ui.php:1
+msgid " Re-Index Products"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "is required"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Re-Index Products"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Note"
+msgstr ""
+
+#: admin_ui.php:1
+msgid " For large number of products,it may take time to complete indexing."
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Disable wpWBot"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Disable wpwBot to Load"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Disable wpWBot on Mobile Device"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Disable wpwBot to Load on Mobile Device"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Enable Initial Page Load"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Enable to play sound on initial page load"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Disable wpwBot Icon Animation"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Disable wpwBot icon border animation"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Disable Cart Item Number"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Disable cart item number display"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Disable Product Search"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Disable Product Search button on start"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Disable Catalog"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Disable Catalog button on start"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Disable Featured Products"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Disable Featured Products button on start"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Disable Sale Products"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Disable Sale Products button on start"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Disable Order Status"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Disable Order Status button on start"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Disable Call Me"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Disable Call Me button on start"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Disable Send Feedback"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Disable Send Feedback button on start & support"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Open Product Details in Page Instead of Bot Window"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Enable to display product details page in new tab "
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Disable wpwBot Opening Notification"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Disable wpwBot Opening notification messages"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Enable RTL Support for Chat"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Enable RTL for Chat Window"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "wpwBot Open Full Screen in Mobile"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Enable wpwBot Open Full Screen in Mobile"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Override wpwBot Icon's Position"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "From Right In px"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "From Bottom In Px"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "From Bottom In px"
+msgstr ""
+
+#: admin_ui.php:1
+msgid ""
+"Number of products to show in search results. (\"-1\" for all products )."
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Display Parent Categories only"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Enable to display only parent category list."
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Display Sub Category after Parent Category"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Enable to display Sub Category after Parent Category."
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Exclude Out of Stock products in Products Search"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Exclude Out of Stock products to display in search results"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Products display orderby"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Orderby Product Title"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Orderby Date"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Orderby Modify"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Orderby Comments Number"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Orderby Random"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Orderby None"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Product display order (ASCENDING or DESCENDING)"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "ASCENDING"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "DESCENDING"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Order Status display settings for a customer"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Without User Login"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Logged In User"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "wpWBot"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Loading Control Options"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Show on Home Page"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "YES"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "NO"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Show on blog posts"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Show on  pages"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "All Pages"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Selected Pages Only "
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Show on wpCommerce"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Show wpwBot on a Page"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Paste the shortcode"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "on any page to display wpwBot on that page."
+msgstr ""
+
+#: admin_ui.php:1
+msgid "wpwBot Icon"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Icon - 0"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Icon - 1"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Icon - 2"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Icon - 3"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Icon - 4"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Icon - 5"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Icon - 6"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Icon - 7"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Icon - 8"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Icon - 9"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Icon - 10"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Icon - 11"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Icon - 12"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Custom Icon"
+msgstr ""
+
+#: admin_ui.php:1
+msgid " Upload custom Icon "
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Upload Icon"
+msgstr ""
+
+#: admin_ui.php:1
+msgid " wpwBot Agent Image"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Default Agent"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Custom Agent"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Custom Agent Icon"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Upload Agent Icon"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "wpwBot Themes"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Theme Basic"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Theme One"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Theme Two"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Theme Three"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Custom Backgroud"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Change the wpwBot message board background for Theme 2 and Theme 3."
+msgstr ""
+
+#: admin_ui.php:1
+msgid ""
+"Upload wpwBot message board background (Ideal image size 376px X 688px)."
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Upload  wpwBot background."
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Custom message board background"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "wpwBot Support Mail"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Your email was sent successfully.Thanks!"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Sorry! I could not send your mail! Please contact the webmaster."
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Disable Call Me (on Support)"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Disable Call Me button on Support"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Thanks for your phone number. We will call you ASAP!"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Sorry! I could not collect phone number! Please contact the webmaster."
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Build Support Query and Answers"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Support query "
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Support answer"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Support query"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Add More Questions and Answers"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Interval between notifications (in Seconds)."
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Add"
+msgstr ""
+
+#: admin_ui.php:1
+msgid ""
+"Add multiple variations of ChatBot responses for each node. They will be "
+"used randomly and give an appearance of more human like conversations."
+msgstr ""
+
+#: admin_ui.php:1
+msgid "General"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Product Search"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Order Status"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Support"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Stop Words"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "System Keywords"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Your Company or Website Name"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Agent name"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Shopper demo name"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "OR"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Sorry"
+msgstr ""
+
+#: admin_ui.php:1
+msgid " Message setting for Greetings: "
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Message setting for Editor Box "
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Message setting for Shopping Cart"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Stop Words Settings Options"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "English"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Arabic"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Bulgarian"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Czech"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Catalan"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Danish"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Dutch"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Finnish"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "French"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "German"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Hindi"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Hungarian"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Indonesian"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Italian"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Norwegian"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Persian"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Polish"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Portuguese"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Romanian"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Russian"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Slovak"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Spanish"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Swedish"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Turkish"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Ukrainian"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Stop Words."
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Start Keyword"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Product Search Keyword"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Product Catalog Keyword"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Order Status  Keyword"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Keyword"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Converstion History Clear"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "wpwBot integration like Facebook Messenger, WhatApps etc."
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Messenger"
+msgstr ""
+
+#: admin_ui.php:1 functions.php:45
+msgid "Skype"
+msgstr ""
+
+#: admin_ui.php:1 functions.php:50
+msgid "WhatsApp"
+msgstr ""
+
+#: admin_ui.php:1 functions.php:55
+msgid "Viber"
+msgstr ""
+
+#: admin_ui.php:1 functions.php:64
+msgid "Web Link"
+msgstr ""
+
+#: admin_ui.php:1 functions.php:60
+msgid "Phone"
+msgstr ""
+
+#: admin_ui.php:1
+msgid ""
+"Enable Messenger (if enabled it will show as option during chat and support)"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Create"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Facebook Page Id"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "and"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Facebook App ID"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Enable Messenger"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Show Messenger Icon beside wpwBot Icon"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Enable to display Messenger Icon beside wpwBot Icon"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Facebook Page ID"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Messenger Color"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Logged In Welcome Message"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Facebook logged in welcome message"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Logged Out Welcome Message"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Facebook logged out welcome message"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Show Skype Floating Icon on wpwBot Message Board Border"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Enable to display Skype Floating Icon on wpwBot message board border."
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Skype ID"
+msgstr ""
+
+#: admin_ui.php:1
+msgid ""
+"Enable WhatsApp (if enabled it will show as option during chat and support)"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Find"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "WhatsApp phone number"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "for settings"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Enable WhatsApp"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Show WhatsApp Icon on wpwBot Message Board Border"
+msgstr ""
+
+#: admin_ui.php:1
+msgid ""
+"Enable to display WhatsApp Floating Icon on wpwBot message board border."
+msgstr ""
+
+#: admin_ui.php:1
+msgid "WhatsApp Phone Number"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Show Viber Icon on wpwBot Message Board Border"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Viber public Account "
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Enable to display Viber Floating Icon on wpwBot message board border."
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Viber Account"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Show Website Floating Link on wpwBot Message Board Border"
+msgstr ""
+
+#: admin_ui.php:1
+msgid ""
+"Enable to display Website Floating Link on wpwBot message board border."
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Website Url"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Show Phone Icon on wpwBot Message Board Border"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Enable to display Phone Floating Icon on wpwBot message board border."
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Phone Number"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "On Site Retargeting  "
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Hello (When available, we will use user name)"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "(GREETING + SHOPPER DEMO NAME)"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Retargeting  message container background color."
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Retargeting Sound"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Enable to play sound on Exit-Intent, Scroll Opening etc"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Window Focus Title"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Focus window with a short message appended to page title"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Custom Meta Title"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "User Exit Intent"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Show Message when mouse pointer moves out of browser viewport"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Enable to show On Exit-Intent Message"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Show only once per visit."
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Your Message"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Scroll Down"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Enable to show message once user scrolls down a page"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "wpwBot will be shown after scrolling down "
+msgstr ""
+
+#: admin_ui.php:1
+msgid "percent"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Show Message After \"X\" Seconds"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Show message after X seconds"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "wpwBot will be opened automatically after "
+msgstr ""
+
+#: admin_ui.php:1
+msgid "seconds"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Show message to complete checkout (when user has products in the cart)"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Show message when the user returns to the site"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Show message when user inactive."
+msgstr ""
+
+#: admin_ui.php:1
+msgid "wpwBot will be opened for inactive user after"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "wpwBot will be opened based on the following settings"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Enable Bot Activity Hour"
+msgstr ""
+
+#: admin_ui.php:1
+msgid ""
+"If enabled wpwBot will show only during the time schedule you set below. "
+"The timezone you set from WordPress general settings will be used."
+msgstr ""
+
+#: admin_ui.php:1
+msgid "wpwBot Bot Activity Hours"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Enable the Mobile App feature ONLY if you bought "
+msgstr ""
+
+#: admin_ui.php:1
+msgid " the Mobile App Addon."
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Mobile App Pages"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Create pages for wpwBot Mobile App"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Following pages will be created to use in"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "wpwBot"
+msgstr ""
+
+#: admin_ui.php:1
+msgid " Android or IOS Mobile App"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "wpwBot Mobile App"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "wpwBot App Checkout"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "wpwBot App Order Thank You"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Follow the"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Documentation"
+msgstr ""
+
+#: admin_ui.php:1
+msgid ""
+"to build & publish a Mobile Application (Android or IOS ) for your store "
+"using any of"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "wpwBot Ionic FrameWork package"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "wpwBot PhoneGap package"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "You can paste or write your custom css here."
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Reset all options to Default"
+msgstr ""
+
+#: admin_ui.php:1
+msgid "Save Settings"
+msgstr ""
+
+#: conversion-tracker/class-qc-conversion-tracker.php:73
+msgid "Customer Conversion Tracker"
+msgstr ""
+
+#: conversion-tracker/class-qc-conversion-tracker.php:77
+msgid "Yesterday"
+msgstr ""
+
+#: conversion-tracker/class-qc-conversion-tracker.php:78
+msgid "Last 7days"
+msgstr ""
+
+#: conversion-tracker/class-qc-conversion-tracker.php:79
+msgid "This Month"
+msgstr ""
+
+#: conversion-tracker/class-qc-conversion-tracker.php:80
+msgid "Custom"
+msgstr ""
+
+#: conversion-tracker/class-qc-conversion-tracker.php:95
+#: conversion-tracker/class-qc-conversion-tracker.php:150
+#: conversion-tracker/class-qc-conversion-tracker.php:203
+#: conversion-tracker/class-qc-conversion-tracker.php:264
+msgid "Add to Cart"
+msgstr ""
+
+#: conversion-tracker/class-qc-conversion-tracker.php:96
+#: conversion-tracker/class-qc-conversion-tracker.php:151
+#: conversion-tracker/class-qc-conversion-tracker.php:204
+#: conversion-tracker/class-qc-conversion-tracker.php:265
+msgid "Reached Checkout"
+msgstr ""
+
+#: conversion-tracker/class-qc-conversion-tracker.php:97
+#: conversion-tracker/class-qc-conversion-tracker.php:152
+#: conversion-tracker/class-qc-conversion-tracker.php:205
+#: conversion-tracker/class-qc-conversion-tracker.php:266
+msgid "Orders"
+msgstr ""
+
+#: conversion-tracker/class-qc-conversion-tracker.php:248
+msgid "Pick dates for custom search"
+msgstr ""
+
+#: conversion-tracker/class-qc-conversion-tracker.php:251
+msgid "From"
+msgstr ""
+
+#: conversion-tracker/class-qc-conversion-tracker.php:254
+msgid "To"
+msgstr ""
+
+#: conversion-tracker/class-qc-conversion-tracker.php:257
+msgid "Go"
+msgstr ""
+
+#: conversion-tracker/class-qc-conversion-tracker.php:284
+msgid "Close"
+msgstr ""
+
+#: functions.php:88 qcld-wpwbot.php:1
+msgid "X"
+msgstr ""
+
+#: templates/app-templates/app-order-thankyou.php:1
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+
+#: templates/app-templates/app-order-thankyou.php:1
+msgid "Pay"
+msgstr ""
+
+#: templates/app-templates/app-order-thankyou.php:1
+msgid "My account"
+msgstr ""
+
+#: templates/app-templates/app-order-thankyou.php:1
+msgid "Order number:"
+msgstr ""
+
+#: templates/app-templates/app-order-thankyou.php:1
+msgid "Date:"
+msgstr ""
+
+#: templates/app-templates/app-order-thankyou.php:1
+msgid "Total:"
+msgstr ""
+
+#: templates/app-templates/app-order-thankyou.php:1
+msgid "Payment method:"
+msgstr ""
+
+#: templates/app-templates/app-order-thankyou.php:1
+msgid "Tap on logo to go home"
+msgstr ""
+
+#: templates/template-00/shortcode.php:1 templates/template-01/shortcode.php:1
+#: templates/template-01/template.php:1 templates/template-02/shortcode.php:1
+#: templates/template-02/template.php:1 templates/template-03/shortcode.php:1
+#: templates/template-03/template.php:1
+msgid "send"
+msgstr ""
+
+#: templates/template-00/template.php:1
+msgid "Send"
+msgstr ""

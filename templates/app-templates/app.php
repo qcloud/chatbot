@@ -1,0 +1,1 @@
+<?phpget_header();echo do_shortcode('[wpwbot_app]');get_footer();
