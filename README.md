@@ -1,18 +1,11 @@
-=== AI ChatBot for WordPress - WPBot ===
-Contributors: quantumcloud
-Donate link: https://www.wpbot.pro/
-Tags: chatbot, chatgpt, live chat, AI, live support
-Requires at least: 4.6
-Tested up to: 6.5
-Stable tag: 5.3.9
-Requires PHP: 5.6
-License: GPLv2 or later
-License URI: https://www.wpbot.pro/
+=== Free AI ChatBot for WordPress - WPBot Lite Version ===
 
 ChatBot for wordpress with AI for Live Chat Support & Collecting Data. NATIVE, No code, Conversational forms, ChatGPT, DialogFlow, HelpDesk
 
 == Description ==
+
 = ChatBot for WordPress with AI - WPBot =
+
 ChatBot for WordPress with AI - WPBot is an easy to use, Native, No coding required, AI ChatBot for WordPress websites to provide Automated Live Chat Support. 
 
 Use ChatBot to <strong>answer user questions</strong> and also <strong>collect information</strong> from the users using <strong>conversational forms</strong> for ChatBot. It can be also be powered by DialogFlow, Tavily or OpenAI ChatGPT or simply use the built-in features to provide Live support and collect data without any extra cost. Own and Manage your ChatBot from the WordPress Dashboard.
@@ -21,7 +14,7 @@ You can use WPBot as a <strong>plug n' play</strong> AI ChatBot (powered by Dial
 
 This ChatBot for WordPress can work in <strong>Natural Language Processing Mode</strong> and <strong>Button Menu Driven</strong> Mode or a <strong>Combination of both</strong>. The ChatBot works with <strong>any language</strong>.
 
-[Support, Bug Report, Feature Requests](https://www.wpbot.pro/free-support/) | [Live ChatBot for WordPress Demo](https://www.wpbot.pro/) | <strong> Upgrade to [WPBOT Pro Now!](https://www.wpbot.pro/)</strong> 
+Download [ChatBot for WordPress Free Version from WordPress](https://wordpress.org/plugins/chatbot) | [Live ChatBot for WordPress Demo](https://www.wpbot.pro/) | <strong> Upgrade to [WPBOT Pro Now!](https://www.wpbot.pro/pricing/)</strong> 
 
 > ++ Upgrade to [WPBot Pro](https://www.wpbot.pro/) to power your ChatBot with OpenAI (ChatGPT) fine tuning and GPT assistant features.
 
@@ -283,30 +276,38 @@ Extend the Start Menu with the <strong>powerful (free or pro) <a href="https://w
 == Frequently Asked Questions ==
 
 = Does the ChatBot support OpenAI GPT-3? =
+
 OpenAI GPT3 is now supported with all WPBot pro ChatBot packages. For advanced OpenAI features like fine tuning and training OpenAI Pro module is required (available with WPBot pro Professional and Master licenses).
 
 = Getting Started with OpenAI =
+
 Once you add the OpenAI API key, the ChatBot should already start working for generic questions. Open a new browser window in Incognito mode and test by asking "What is the capital of Japan?"
 
 Please make sure DialogFlow is Disabled if you want OpenAI to work with the ChatBot
 
 = OpenAI not working. ChatBot Keeps loading =
+
 If OpenAI is not responding back and the chatbot is just loading, then likely you hit your OpenAI usage limit. Add a billing detail and increase the Usage limit.
 https://platform.openai.com/account/billing/overview
 
 = How to get an OpenAI API Key for the ChatBot? =
+
 The OpenAI API uses API keys for authentication. Visit your API Keys page to retrieve the API key you’ll use in your requests. Remember that your API key is a secret! Do not share it with others or expose it in any client-side code (browsers, apps). You can grab the API key for the chatbot from this page: https://beta.openai.com/account/api-keys
 
 = Can I use both DialogFlow and OpenAI GPT3 with the ChatBot? =
+
 No. They will not both work together. Please disable DialogFlow if you want OpenAI to work for the ChatBot.
 
 = Is my language supported? =
+
 The ChatBot can work with ANY language. Just change the language texts from the ChatBot Settings->Language Center to your preferred one. Multi language is supported with the WpBot Pro version and an addon.
 
 = I am not getting emails from the ChatBot =
+
 The WPBot ChatBot uses the WordPress' default email function. If you are not getting emails from the ChatBot's email feature, it is likely that no emails are getting through from your WordPress site or they are ending up in the Spam box. Try using an SMTP mailer plugin. Also, try changing the to and from email addresses in the ChatBot's general settings area.
 
 = I cannot connect the ChatBot to DialogFlow =
+
 To Debug: 1. Make sure that you have created the Google Project and the Service account as an Owner
 2. Make sure that you have connected to the correct Dialogflow agen
 3. Follow the steps in this tutorial correctly: https://www.wpbot.pro/dialogflow-integration/
@@ -315,20 +316,25 @@ To Debug: 1. Make sure that you have created the Google Project and the Service 
 6. Test the ChatBot in the browser Incognito mode
 
 = Simple text responses are not working or getting an error =
+
 WPBot requires mysql version 5.6+ for the simple text responses to work. If your server has a version below that, you might see some PHP error or the Simple Text Responses will not work at all. Please request your hosting support to update the mysql version on your server.
 
 = I cannot save the settings =
+
 It is likely that your server has a very low value for a server settings called Max Input Vars. Please contact your hosting support and request them to increase the max_input_vars value to 5000
 
 = I changed language or some other settings but do not see them when testing =
+
 Please clear the browser cache and <strong>cookies</strong> to see any change you have made. Alternatively, you can open a fresh browser window in incognito mode (Ctrl+Shift+N in chrome) to test your changes. Also, you may need to purge any cache plugin and CDN caching.
 
 = The ChatBot is NOT working in the front end. =
+
 The most common reason for this is if the theme is coded incorrectly and jQuery is loaded from external source. jQuery is included with WordPress core and according to WordPress standard, jQuery must be included using wp_enqueue_script. https://developer.wordpress.org/reference/functions/wp_enqueue_script/ . Please make sure if that is the case in your theme. 
 
 Please contact us if you need [further help](https://www.wpbot.pro/free-support/). We take all user feedback sriously.
 
 = The ChatBot is stuck on typing or loading =
+
 This usually happens if you enabled DialogFlow but did not complete the set up. Please make sure that you have carefully followed all the steps for DialogFlow integration in the Settings->DialogFlow section.
 [This article](https://www.wpbot.pro/dialogflow-integration/) can also be helpful in getting the required information from DialogFlow console.
 
@@ -336,6 +342,7 @@ This can also happen if there is any empty language fields or Simple Text Respon
 
 
 = How do I add new conversations to the ChatBot? =
+
 Without DialogFlow: You can create simple text conversations with the <strong>[Conversational Form Builder](https://wordpress.org/plugins/conversational-forms/)</strong> addon by using the HTML elements to dislay your responses. The adoon's free version does not support Conditional responses. The pro version does. But you can create linear conversations and display them from the Start menu. Once you have created a form using the Conversational form builder addon you can add it to the ChatBot start menu from the WPBot Settings->Start Menu. Make sure to always Save the ChatBot Start menu settings after rearranging the columns.
 
 You can also create text responses for the ChatBot using the Simple Text Responses feature inside the WordPress dashboard.
@@ -343,591 +350,28 @@ You can also create text responses for the ChatBot using the Simple Text Respons
 With DialogFlow: You can create new Intents and Text responses inside DialogFlow. For each user input, WPBot will automatically connect to DialogFlow and try to match with the Itents and training Data you added. When an Intent is matched, its response will be returned to the user.
 
 = Does the ChatBot work with Google's DialogFlow V2 =
+
 Yes, currently the ChatBot works both with Dialogflow version 1 and 2. V1 support will stop on Oct 23rd, 2019. 
 
 [This article](https://www.wpbot.pro/dialogflow-integration/) can also be helpful in getting the required information from DialogFlow console.
 
 = How do I add Line Breaks? =
+
 Please use the br html tag for line breaks.
 
 = Are HTML tags supported? =
+
 Yes, common HTML tags link link href, strong, br etc. are supported.
 
 = Does the ChatBot support images, GIFs, Videos =
+
 Images, GIFs and Youtube Videos are supprted in the pro version. Pro version also includes a handy giphy floating search for easy embed in the language center.
 
 
 == Screenshots ==
+
 1. WordPress Chatbot hard at work
 2. ChatBot for WordPress Back end
 3. Simple Text Response List
 2. Simple Text Responses Edit
 
-== Changelog ==
-
-= 5.3.9 =
-# Added GPT 4o support
-# Fixed an issue with FAQ
-
-= 5.3.8 =
-# Improved security
-
-= 5.3.7 =
-# Improved security
-
-= 5.3.6 =
-# Removed unnecessary functions
-# Improved security
-
-= 5.3.4 =
-# Text Update
-
-= 5.3.3 =
-# UI Update
-
-= 5.3.2 =
-# Fixed a PHP error for downgrading
-
-= 5.3.1 =
-# Updated some text
-
-= 5.3.0 =
-# Updated some text
-
-= 5.2.9 =
-# Conversational form builder
-
-= 5.2.8 =
-# GPT Assistant
-
-= 5.2.7 =
-# UI Update
-
-= 5.2.6 =
-# Remove Eid sale
-
-= 5.2.5 =
-# UI update
-
-= 5.2.4 =
-# Eid sale for ChatBot
-
-= 5.2.3 =
-# Fixed a link
-
-= 5.2.2 =
-# Added instructions
-
-= 5.2.1 =
-# Text update
-
-= 5.2.0 =
-# UI update
-
-= 5.1.9 =
-# UI update
-
-= 5.1.8 =
-# Hide the button for conversational form builder
-
-= 5.1.7 =
-# Updated some instruction text
-
-= 5.1.6 =
-# Select default OpenAI model
-
-= 5.1.5 =
-# Improved the reset option
-
-= 5.1.4 =
-# Removed unnecessary field from ChatBot OpenAI settings
-
-= 5.1.3 =
-# ChatBot UI improvement for STR
-
-= 5.1.2 =
-# Removed NY sale banner for ChatBot
-
-= 5.1.1 =
-# Updated cookies in ChatBot openAI
-# Removed ChatBot openAIs' old models
-
-= 5.1.0 =
-# Fixed an image path
-
-= 5.0.9 =
-# New Year Sale for ChatBot
-
-= 5.0.7 =
-# Christmas Sale
-
-= 5.0.6 =
-# When ChatBot OpenAI is enabled create a popup and ask if we should disable Site Search. 
-
-= 5.0.5 =
-# Removed BF Sale for ChatBot
-
-= 5.0.4 =
-# Fixed a PHP error for ChatBot
-
-= 5.0.3 =
-# Fixed a PHP warning
-
-= 5.0.2 =
-# BF Sale for ChatBot
-
-= 5.0.1 =
-# BF Sale
-
-= 4.9.9 =
-# Fixed custom CSS loading for ChatBot
-
-= 4.9.8 =
-# Removed Halloween sale for ChatBot
-
-= 4.9.7 =
-# Improved security for FAQ for ChatBot
-
-= 4.9.6 =
-# Halloween sale for ChatBot
-
-= 4.9.5 =
-# Fixed custom icon issue for ChatBot
-
-= 4.9.4 =
-# ChatBot Fixed a broken image issue
-
-= 4.9.3 =
-# Removed OpenAI unnessary functions
-# fixed a php7.2 syntex error
-
-= 4.9.2 =
-# Added Visual Editor for STR 
-# OpenAI keyword Case fixed
-
-= 4.9.1 =
-# Improved security
-# Removed unnecessary functions
-
-= 4.8.9 =
-# Minor UI Update for ChatBot
-
-= 4.8.8 =
-# Fixed a PHP warning for ChatBot
-
-= 4.8.7 =
-# Fixed FAQ fatal error
-
-= 4.8.6 =
-# Fixed HTML issue in FAQ
-
-= 4.8.5 =
-# Removed admin notice
-
-= 4.8.4 =
-# Added admin notice
-
-= 4.8.3 =
-# UI update for ChatBot
-
-= 4.8.2 =
-# Added Site Search feature
-
-= 4.8.1 =
-# Small UI update for ChatBot
-
-= 4.8.0 =
-# Fixed an issue with OpenAI settings save
-
-= 4.7.9 =
-# Improved security for STR indexing as admin
-
-= 4.7.8 =
-# Improved security for FAQ saving as admin
-
-= 4.7.7 =
-# UI Update for ChatBot
-
-= 4.7.6 =
-# Fixed slash issue in language center
-
-= 4.7.5 =
-# Fixed JS issue on the dialogflow page
-
-= 4.7.4 =
-# Removed notice about new template
-
-= 4.7.3 =
-# Fixed FAQ issue
-
-= 4.7.2 =
-# Fixed a conflict with FluentSMTP
-
-= 4.7.1 =
-# Removed Sale notice for ChatBot
-
-= 4.7.0 =
-# Sale notice
-
-= 4.6.9 =
-# ChatBot UI Changes
-
-= 4.6.8 =
-# ChatBot Fixed horizontal template mobile display issue
-
-= 4.6.7 =
-# ChatBot Fixed duplicate notice on the Start Menu page
-
-= 4.6.6 =
-# Fixed empty keyword issue on OpenAI settings
-
-= 4.6.5 =
-# Updated UI
-# Fixed OpenAI include/Exclude keyword issue
-
-= 4.6.3 =
-# added horizontal chat template
-# change openAI settings page text  
-
-= 4.6.2 =
-# Fixed custom post type exclude not saving issue
-
-= 4.6.1 =
-# Exclude include keyword option for openAI
-# Fix the exclude custom post
-# Security check on admin settings
-
-= 4.6.0 =
-# Improved UI
-
-= 4.5.9 =
-# Minor UX improvements
-
-= 4.5.8 =
-# Fixed issue with Dialogflow connection button
-
-= 4.5.7 =
-# Fixed show start menu after greetings option chekcing
-
-= 4.5.6 =
-# Fixed back to start button
-# Sanitization for chatbot keywords area for admin user role
-
-= 4.5.5 =
-# Sanitization for STR area for admin user role
-
-= 4.5.4 =
-# back to start button button for fixed for different language
-# reset command fixed
-
-= 4.5.3 =
-# Fixed issues with STR
-
-= 4.5.2 =
-# Added WPBot in a Nutshell 
-# fix no answer found message 
-# fix search field filter on STR
-
-= 4.5.1 =
-# Improved security for Settings
-
-.........
-
-= 3.8.1 =
-# Fixed the issue with Call me intent getting stuck
-
-= 3.8.0 =
-# Improved responsiveness
-
-= 3.7.9 =
-# Improved responsiveness
-
-= 3.7.8 =
-# Fixed a database table name issue
-
-= 3.7.7 =
-# Removed some test code/text
-
-= 3.7.6 =
-# Added more debugging info
-# Re-indexing button added.
-
-= 3.7.5 =
-# Improved the Help section
-
-= 3.7.4 =
-# Added Custom CSS option
-
-= 3.7.3 =
-# option Save issue fixed.
-# Tested with wp 5.7
-# Email us intent json issue fixed.
-# Button design issue fixed.
-
-= 3.7.2 =
-# Uncaught Error: Call to a member function close() on bool - fixed.
-
-= 3.7.1 =
-# Refactored and improved code
-# Remove Unused Files
-# Make Chatbot Fulscreen on Mobile option default
-# Fix Close icon on Mobile
-
-
-= 3.7.0 =
-# Improved default template button design
-# Added help notice
-
-= 3.6.9 =
-# Improved close button
-# Improved loading issue
-
-= 3.6.8 =
-# Fixed close button
-# Fixed loading issue
-
-= 3.6.7 =
-# Improved mobile view
-
-= 3.6.6 =
-# MYsql version notice issue fixed. 
-
-= 3.6.5 =
-# Added required mysql version notice
-
-= 3.6.4 =
-# WP 5.6, PHP 8 Cpmpatible
-
-= 3.6.3 =
-# Removed sale notice
-
-= 3.6.2 =
-# Text box block issue for iphone 6 - fixed.
-
-= 3.6.1 =
-# Improved STR
-# Fixed an issue on iphone
-
-= 3.6.0 =
-# Fixed duplicate notice
-
-= 3.5.9 =
-# Improved UX
-
-= 3.5.8 =
-# Updated Support Link Notice
-
-= 3.5.7 =
-# Rating request added.
-# Dialogfow Project ID & Language field is marked required now.
-# New tutorial link added.
-
-= 3.5.6 =
-# Improved responsiveness
-
-= 3.5.5 =
-# Set default response delay to 0.5 sec
-
-= 3.5.4 =
-# Chat window size increased like the pro version.
-# WPBot logo removed from chat window background.
-
-= 3.5.3 =
-# Disable a default feature will automatically remove the item from the Start Menu 
-# Bot Response Delay option added.
-# Bottom icons title added.
-# Help Section updated.
-# From email address field added in general settings.
-
-= 3.5.2 =
-# Improved Help page UI
-
-= 3.5.1 =
-# Added more info on how to use the WPBot ChatBot
-
-= 3.5.0 =
-# Improved Help and Tips
-
-= 3.4.9 =
-# Recfactored code for more stability
-
-= 3.4.8 =
-# Fixed a conflict with FooBox plugin
-
-= 3.4.7 =
-# Add mysql version requirement message
-
-= 3.4.6 =
-# wc_setcookie function is exists check added.
-
-= 3.4.5 =
-# Dialogflow Test Connection Error message added.
-
-= 3.4.4 =
-# Full screen support under 1024px - done.
-# Backslash issue fixed for language center
-
-= 3.4.3 =
-# DF Tutorial link updated.
-
-= 3.4.2 =
-# DF Tutorial link updated.
-# Button design updated
-# Dialogflow owner permission required notice added.
-
-= 3.4.1 =
-# Typing area block issue on mobile fixed.
-
-= 3.4.0 =
-# Improved Simple Text Responses
-
-= 3.3.9 =
-# Fixed a conflict with the oxygen page builder
-
-= 3.3.8 =
-# Multiple back to start button issue fixed
-
-= 3.3.7 =
-# Improved Simple Text responses
-
-= 3.3.6 =
-# Fixed an error with full text search - too many keys specified.
-
-= 3.3.5 =
-# Added notice for Df section and Start menu
-
-= 3.3.4 =
-# Don't load resources globally when loaded Selected page only
-
-= 3.3.3 =
-# Show on pages > Selected page only - undefined function issue fixed.
-
-= 3.3.2 =
-# Fixed bug with page specific chatbot loading
-
-= 3.3.1 =
-# Simple text response search improved and bug fixed
-
-= 3.2.9 =
-# Added new feature - Simple text response
-
-= 3.2.8 =
-# Admin area language changed - System Keyword->Chatbot Keyword.
-# New template added
-# Disable WPbot on Mobile Device option added in general settings.
-
-= 3.2.7 =
-# Fixed timezone issue
-
-= 3.2.6 =
-# Dialogflow Connection test button added
-# Form Builder first response html - issue fixed.
-
-= 3.2.5 =
-# Improved Start Menu Options
-
-= 3.2.3 =
-# Improved deactivation module
-
-= 3.2.2 =
-# Compatible with Messenger chatbot addon free.
-# Custom rest api endpoind created for Dialogflow api
-
-= 3.2.1 =
-# DF v2 client download script updated.
-# WPBot panel updated.
-# Addon page updated.
-
-= 3.2.0 =
-# Improved Admin UI
-# Added option Show Start Menu after Greetings
-# Mobile fullscreen mode close icon issue fixed.
-# Call to undefined function wc_get_product() - issue fixed.
-
-= 3.1.0 =
-# DialogFlow V2 compatibility added
-
-= 3.0.1 =
-# Improved some CSS and button styles
-
-= 3.0.0 =
-# Added support for conversational forms chatbot addon
-
-= 2.9.6 =
-# Added support for multiple responses from dialogflow
-
-= 2.9.5 =
-# Fixed some conflict with a custom theme
-
-= 2.9.4 =
-# Fixed the support icon in the front end ChatBot
-
-= 2.9.3 =
-# Improved Support area.
-
-= 2.9.2 =
-# Improved Help area.
-
-= 2.9.1 =
-# Custom Agent image upload option added.
-
-= 2.9.0 =
-# Added custom admin email option
-
-= 2.8.0 =
-# Notice: Undefined index issue fixed.
-
-= 2.6.0 =
-# More Notice: Undefined index issue fixed.
-
-= 2.5.0 =
-# Notice: Undefined index issue fixed.
-
-= 2.4.0 =
-# Notice: Undefined index issue fixed.
-# Free support link added.
-
-= 2.3.0 =
-# WPBot open full screen in mobile option added.
-
-= 2.2.0 =
-# Added addon section
-
-= 2.1.0 =
-# Added a banner
-
-= 2.0.0 =
-# Fixed a PHP warning
-
-= 1.9.0 =
-# Improved deactivation survey
-
-= 1.8.0 =
-# Conflict with woowbot fixed.
-# Agent download issue fixed.
-# Deactivate feedback updated.
-
-= 1.7.0 =
-# Introducing the pro version
-
-= 1.6.0 =
-# Removed site search feature
-# Added DialogFlow Integration
-
-= 1.5.0 =
-# Added site search feature
-
-= 1.3.0 =
-# Added call me back feature
-# Upload custom bot icon
-
-= 1.2.0 =
-# Improved User input text sanitization added.
-
-= 1.0.0 =
-# Default message updated.
-# New icon added as agent & chatbot icon.
-# Support changed to FAQ
-
-= 0.9.0 =
-*Inception
