@@ -23,9 +23,29 @@
         <!--        wp-chatbot-product-container-->
         <div id="wp-chatbot-board-container" class="wp-chatbot-board-container">
 			<div class="wp-chatbot-header">
+                
+            <div class="wp-chatbot-header-welcome-text">
+            <?php
+                    if (get_option('wp_chatbot_icon') == "custom.png") {
+                        $wp_chatbot_custom_icon_path = (!empty(get_option('wp_chatbot_custom_icon_path'))) ? get_option('wp_chatbot_custom_icon_path') : QCLD_wpCHATBOT_IMG_URL . 'icon-1.png';
+                   
+                    } else if (get_option('wp_chatbot_icon') != "custom.png") {
+                        $wp_chatbot_custom_icon_path = QCLD_wpCHATBOT_IMG_URL . get_option('wp_chatbot_icon');
+                    } else {
+                        $wp_chatbot_custom_icon_path = QCLD_wpCHATBOT_IMG_URL . 'custom.png';
+                    }
+                    ?>
+                    <img src="<?php echo esc_url($wp_chatbot_custom_icon_path); ?>"
+                         alt="wpChatIcon" qcld_agent="<?php echo esc_url($wp_chatbot_custom_icon_path); ?>" >
+            </div>
+
+            <div class="wp-chatbot-header-icon-right">
                 <div id="wp-chatbot-desktop-reload" title="Reset"><span class="dashicons dashicons-update-alt"></span></div>
                 <!-- <div id="wp-chatbot-desktop-close" title="<?php // echo(get_option('qlcd_wp_chatbot_close_lan') != '' ? get_option('qlcd_wp_chatbot_close_lan') : 'Close'); ?>"><i class="fa fa-times" aria-hidden="true"></i></div> -->
                 <div id="wp-chatbot-desktop-close"><span class="dashicons dashicons-no"></span></div>
+                </div>
+
+
             </div>
             <!--wp-chatbot-header-->
             <div class="wp-chatbot-ball-inner wp-chatbot-content">

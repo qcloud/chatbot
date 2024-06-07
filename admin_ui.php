@@ -1306,9 +1306,7 @@ if ( ! defined( 'ABSPATH' ) ) {
                           <h4 class="<?php esc_attr_e( 'qc-opt-title',  'wpbot' );  ?> ">
                             <?php esc_html_e('WPBot Icon Background Color.', 'wpbot'); ?>
                           </h4>
-                          <input id="<?php esc_attr_e( 'wp_chatbot_floatingiconbg_color',  'wpbot' );  ?>" type="text"
-                                                                                    name="wp_chatbot_floatingiconbg_color"
-                                                                                    value="<?php echo esc_attr((get_option('wp_chatbot_floatingiconbg_color') != '' ? get_option('wp_chatbot_floatingiconbg_color'): '#fff') ); ?>"/>
+                          <input id="<?php esc_attr_e( 'wp_chatbot_floatingiconbg_color',  'wpbot' );  ?>" type="text" name="wp_chatbot_floatingiconbg_color" value="<?php echo esc_attr((get_option('wp_chatbot_floatingiconbg_color') != '' ? get_option('wp_chatbot_floatingiconbg_color'): '#fff') ); ?>"/>
                         </div>
                       </div>
 
@@ -1436,18 +1434,7 @@ if ( ! defined( 'ABSPATH' ) ) {
               <div id="<?php esc_attr_e( 'wp-chatbot-custom-color-options',  'wpbot' );  ?>" class="<?php esc_attr_e( 'tab-pane fade',  'wpbot' );  ?>">
                 <div class="<?php esc_attr_e( 'top-section',  'wpbot' );  ?>">
                   <div class="<?php esc_attr_e( 'row',  'wpbot' );  ?>">
-                    <div class="<?php esc_attr_e( 'col-xs-6',  'wpbot' );  ?>">
-                      <div class="<?php esc_attr_e( 'cxsc-settings-blocks',  'wpbot' );  ?>">
-                        <div class="<?php esc_attr_e( 'form-group',  'wpbot' );  ?>">
-                          <h4 class="<?php esc_attr_e( 'qc-opt-title',  'wpbot' );  ?>">
-                            <?php esc_html_e('Bot Floating Icon Background Color.', 'wpbot'); ?>
-                          </h4>
-                          <input id="<?php esc_attr_e( 'wp_chatbot_floatingiconbg_color',  'wpbot' );  ?>" type="text"
-                                      name="wp_chatbot_floatingiconbg_color"
-                                      value="<?php echo esc_attr((get_option('wp_chatbot_floatingiconbg_color') != '' ? get_option('wp_chatbot_floatingiconbg_color') : '#fff')); ?>"/>
-                        </div>
-                      </div>
-                      </div>
+   
                       <div class="<?php esc_attr_e( 'col-xs-6',  'wpbot' );  ?>">
                       <div class="cxsc-settings-blocks ">
                       <h4 class="<?php esc_attr_e( 'qc-opt-title',  'wpbot' );  ?>">
@@ -1518,7 +1505,7 @@ if ( ! defined( 'ABSPATH' ) ) {
                           </h4>
                           <input id="<?php esc_attr_e( 'wp_chatbot_bot_msg_text_color',  'wpbot' );  ?>" type="text"
                                   name="wp_chatbot_bot_msg_text_color"
-                                  value="<?php echo esc_attr((get_option('wp_chatbot_bot_msg_text_color') != '' ? get_option('wp_chatbot_bot_msg_text_color') : '#ffffff')); ?>"/>
+                                  value="<?php echo esc_attr((get_option('c') != '' ? get_option('wp_chatbot_bot_msg_text_color') : '#ffffff')); ?>"/>
                         </div>
                       </div>
                                             </div>

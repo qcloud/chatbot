@@ -53,7 +53,7 @@ function wpbo_search_site() {
 				$responses .=		'<img src="'.esc_url_raw($featured_img_url).'" />';
 			}
 			$responses .=		'<div class="wpbot_card_caption '.($featured_img_url==''?'wpbot_card_caption_saas':'').'">';
-			$responses .=			'<h4>'.esc_html($result->post_title).'</h4>';
+			$responses .=			'<p><span style="background: #88bfc9;padding: 0 5px;color: white;display: inline-block;margin-right: 5px;"> ✓ </span> '.esc_html($result->post_title).'</p>';
 			if($result->post_type=='product'){
 				if ( class_exists( 'WooCommerce' ) ) {
 					$product = wc_get_product( $result->ID );
@@ -78,7 +78,7 @@ function wpbo_search_site() {
 
 			$term = esc_sql( like_escape( $term ) );
 
-			$sql = $wpdb->prepare("SELECT * FROM ". $wpdb->prefix."posts where post_type in ('page', 'post') and post_status='publish' and ((post_title LIKE %s')) order by ID DESC", '%'. $term .'%');
+			$sql = $wpdb->prepare("SELECT * FROM ". $wpdb->prefix."posts where post_type in ('page', 'post') and post_status='publish' and ((post_title LIKE %s)) order by ID DESC", '%'. $term .'%');
 
 			$results[] = $wpdb->get_results( $sql ); //DB Call OK, No Caching OK
 
@@ -97,7 +97,7 @@ function wpbo_search_site() {
 							$responses .=		'<img src="'.$featured_img_url.'" />';
 						}
 						$responses .=		'<div class="wpbot_card_caption '.($featured_img_url==''?'wpbot_card_caption_saas':'').'">';
-						$responses .=			'<h4>'.$value[0]->post_title.'</h4>';
+						$responses .=			'<p><span style="background: #88bfc9;padding: 0 5px;color: white;display: inline-block;margin-right: 5px;"> ✓ </span>'.$value[0]->post_title.'</p>';
 						$responses .=		'</div>';
 						$responses .=	'</a></div>';
 						$responses .='</div>';

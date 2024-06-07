@@ -4,12 +4,12 @@
  * Plugin URI: https://wordpress.org/plugins/chatbot/
  * Description: ChatBot is a native WordPress ChatBot plugin to provide quick support and email functionality.
  * Donate link: https://www.quantumcloud.com
- * Version: 5.3.9
+ * Version: 5.4.3
  * @author    QuantumCloud
  * Author: QuantumCloud
  * Author URI: https://www.quantumcloud.com/
  * Requires at least: 4.6
- * Tested up to: 6.5.3
+ * Tested up to: 6.5
  * Text Domain: wpbot
  * Domain Path: /lang
  * License: GPL2
@@ -18,7 +18,7 @@
 
 
 if (!defined('ABSPATH')) exit; // Exit if accessed directly
-define('QCLD_wpCHATBOT_VERSION', '5.3.9');
+define('QCLD_wpCHATBOT_VERSION', '5.4.3');
 define('QCLD_wpCHATBOT_REQUIRED_wpCOMMERCE_VERSION', 2.2);
 define('QCLD_wpCHATBOT_PLUGIN_DIR_PATH', plugin_dir_path(__FILE__));
 define('QCLD_wpCHATBOT_PLUGIN_URL', plugin_dir_url(__FILE__));
@@ -679,6 +679,12 @@ class qcld_wb_Chatbot
                 #wp-chatbot-chat-container .wp-chatbot-header{
                     background: ". get_option('wp_chatbot_header_background_color')." !important;
                 }
+                .wp-chatbot-container ul.wp-chatbot-messages-container > li.wp-chatbot-msg .wp-chatbot-paragraph, .wp-chatbot-container .wp-chatbot-agent-profile .wp-chatbot-bubble {
+                    color:  ". get_option('wp_chatbot_bot_msg_text_color')." !important;
+                    background: ". get_option('wp_chatbot_bot_msg_bg_color')." !important;
+                }
+
+
             ";
         
         }
@@ -2351,7 +2357,7 @@ function qcld_wb_chatboot_defualt_options(){
         update_option('enable_wp_chatbot_post_content', '1');
     }
     if(!get_option('openai_engines')) {
-        update_option('openai_engines', 'gpt-4');
+        update_option('openai_engines', 'gpt-4o');
     }
     
     set_transient( 'bot_clear_cache', 1, DAY_IN_SECONDS );
@@ -3273,14 +3279,16 @@ function qc_mysql_remove_existing_indexes(){
 	}
 }
 
-// add_action( 'activated_plugin', 'qc_wpbotfree_activation_redirect' );
-// function qc_wpbotfree_activation_redirect( $plugin ){
-
-// 	if( $plugin == plugin_basename( __FILE__ ) ) {
-//         // phpcs:ignore
-// 		exit( wp_redirect( esc_url( admin_url('admin.php?page=wpbot') ) ) );
-// 	}
-// }
+add_action( 'activated_plugin', 'qc_wpbotfree_activation_redirect' );
+function qc_wpbotfree_activation_redirect( $plugin ){
+    $screen = get_current_screen();
+    if( ( isset( $screen->base ) && $screen->base == 'plugins' ) && $plugin == plugin_basename( __FILE__ ) ) {
+        if( $plugin == plugin_basename( __FILE__ ) ) {
+            // phpcs:ignore
+            exit( wp_redirect( esc_url( admin_url('admin.php?page=wpbot') ) ) );
+        }
+    }
+}
 
 
 

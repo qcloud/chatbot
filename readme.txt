@@ -4,7 +4,7 @@ Donate link: https://www.wpbot.pro/
 Tags: chatbot, chatgpt, live chat, AI, live support
 Requires at least: 4.6
 Tested up to: 6.5
-Stable tag: 5.3.9
+Stable tag: 5.4.3
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: https://www.wpbot.pro/
@@ -98,6 +98,7 @@ The <strong>Onsite Retargeting</strong> helps your Conversion rate optimization 
 
 <strong>Collect eMail Addresses</strong> from your website users. Let people share their eMail address conversing with the ChatBot! Use the retargeting feature to prompt users with an enticing offer. eMail addresses are saved in the database that can be exported as CSV file.
 
+> ++ Download [Free ChatBot from WordPress](https://github.com/qcloud/chatbot) from GITHUB
 
 = ChatBot Pro feature highlights =
 
@@ -269,6 +270,7 @@ Extend the Start Menu with the <strong>powerful (free or pro) <a href="https://w
 * <strong>Telegram Bot</strong> AddOn
 * <strong>OpenAI GPT3 Integration</strong> AddOn
 
+> ++ Download [Free ChatBot from WordPress](https://github.com/qcloud/chatbot) from GITHUB
 
 > ++ [View Demo of the ChatBot for WordPress](https://www.wpbot.pro/)
 
@@ -364,6 +366,15 @@ Images, GIFs and Youtube Videos are supprted in the pro version. Pro version als
 2. Simple Text Responses Edit
 
 == Changelog ==
+
+= 5.4.3 =
+# Default template UI update
+
+= 5.4.2 =
+# Improved Site Search result display
+
+= 5.4.1 =
+# Cleaned up UI and some spelling mistakes
 
 = 5.3.9 =
 # Added GPT 4o support
